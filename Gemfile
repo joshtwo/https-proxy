@@ -1,3 +1,3 @@
 source 'http://rubygems.org' do
-  gem 'evil-proxy', path: '/home/josh/code/ruby/evil-proxy'
+  gem 'evil-proxy', git: 'http://github.com/joshtwo/evil-proxy.git'
 end

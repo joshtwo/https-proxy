@@ -1,5 +1,6 @@
-PATH
-  remote: /home/josh/code/ruby/evil-proxy
+GIT
+  remote: http://github.com/joshtwo/evil-proxy.git
+  revision: 0018e737f7f2e350903c473b2057973788cdfea0
   specs:
     evil-proxy (0.2.0)
 
