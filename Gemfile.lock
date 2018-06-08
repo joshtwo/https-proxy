@@ -1,0 +1,17 @@
+PATH
+  remote: /home/josh/code/ruby/evil-proxy
+  specs:
+    evil-proxy (0.2.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  evil-proxy!
+
+BUNDLED WITH
+   1.16.2
