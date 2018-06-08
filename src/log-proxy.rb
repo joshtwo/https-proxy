@@ -25,7 +25,7 @@ WEBrick::HTTPRequest.class_eval do
   end
 end
 
-proxy = EvilProxy::MITMProxyServer.new Port: 3128
+proxy = EvilProxy::MITMProxyServer.new Port: (ENV["PORT"] || 3128)
 line = "\n" + '-' * 20 + "\n"
 count = 0
 
